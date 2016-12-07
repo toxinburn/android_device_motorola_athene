@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CMActions
 
+# CMFileManager
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/CMFileManager.apk:system/app/CMFileManager/CMFileManager.apk
+
 # Display
 PRODUCT_PACKAGES += \
     gralloc.msm8952 \
